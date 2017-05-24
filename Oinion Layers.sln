@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIContainer", "ConsoleApplication13\DIContainer.csproj", "{3A863417-F7C0-4360-A07A-4EF5F6194EEE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newsletter", "ClassLibrary1\Newsletter.csproj", "{092F050A-B07D-4638-A017-85C860A09524}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "ClassLibrary2\EmailService.csproj", "{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{839B8676-6DDF-46DC-9DE6-9EC8491DE8BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{ECA93C1B-4314-4B3B-933F-F75D7E7A4D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newsletter", "Newsletter\Newsletter.csproj", "{092F050A-B07D-4638-A017-85C860A09524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIContainer", "Example\DIContainer.csproj", "{3A863417-F7C0-4360-A07A-4EF5F6194EEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,29 +19,29 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{092F050A-B07D-4638-A017-85C860A09524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{092F050A-B07D-4638-A017-85C860A09524}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{092F050A-B07D-4638-A017-85C860A09524}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{092F050A-B07D-4638-A017-85C860A09524}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ECA93C1B-4314-4B3B-933F-F75D7E7A4D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ECA93C1B-4314-4B3B-933F-F75D7E7A4D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA93C1B-4314-4B3B-933F-F75D7E7A4D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA93C1B-4314-4B3B-933F-F75D7E7A4D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092F050A-B07D-4638-A017-85C860A09524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F050A-B07D-4638-A017-85C860A09524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F050A-B07D-4638-A017-85C860A09524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F050A-B07D-4638-A017-85C860A09524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A863417-F7C0-4360-A07A-4EF5F6194EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{092F050A-B07D-4638-A017-85C860A09524} = {839B8676-6DDF-46DC-9DE6-9EC8491DE8BF}
-		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24} = {839B8676-6DDF-46DC-9DE6-9EC8491DE8BF}
 		{ECA93C1B-4314-4B3B-933F-F75D7E7A4D9B} = {839B8676-6DDF-46DC-9DE6-9EC8491DE8BF}
+		{5B38BD16-5EC9-4DB2-84DF-805C5529AF24} = {839B8676-6DDF-46DC-9DE6-9EC8491DE8BF}
+		{092F050A-B07D-4638-A017-85C860A09524} = {839B8676-6DDF-46DC-9DE6-9EC8491DE8BF}
 	EndGlobalSection
 EndGlobal

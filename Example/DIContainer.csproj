@@ -55,11 +55,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Newsletter.csproj">
+    <ProjectReference Include="..\Newsletter\Newsletter.csproj">
       <Project>{092f050a-b07d-4638-a017-85c860a09524}</Project>
       <Name>Newsletter</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ClassLibrary2\EmailService.csproj">
+    <ProjectReference Include="..\EmailService\EmailService.csproj">
       <Project>{5b38bd16-5ec9-4db2-84df-805c5529af24}</Project>
       <Name>EmailService</Name>
     </ProjectReference>
